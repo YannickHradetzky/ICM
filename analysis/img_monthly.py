@@ -28,6 +28,9 @@ def make_figure(pvpot, month, year):
     image_path = "/home/yannickh00/ICM/analysis/monthly_averages/"
     plt.contourf(pvpot.longitude, pvpot.latitude, pvpot.sel(month=month))
     plt.colorbar()
+    plt.xlabel("longitude")
+    plt.ylabel("latitude")
+    plt.title(f"Mean PV-Pot for {month}-{year}")
     plt.savefig(image_path + f"{month}-{year}.png")
     plt.close()
 
