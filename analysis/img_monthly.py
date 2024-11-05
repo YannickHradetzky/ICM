@@ -3,7 +3,7 @@ import numpy as np
 import time
 from dask.distributed import Client, LocalCluster
 import matplotlib.pyplot as plt
-from glob import glob 
+import glob
 import my_functions as mf
 import argparse
 
@@ -12,7 +12,12 @@ def main(year, client):
     path="/home/yannickh00/LEHRE/msc-intro-comp-met-ex-w2024/data/era5/"    
     print
     # open the dataset
-    ds=xr.open_mfdataset(path+f"era5-{year}-*.nc", engine="netcdf4", chunks={"valid_time":1e5} )
+    all_files = glob.glob(path + "*")
+    all_files = [f for f in all_files if f"{year}" in f]
+    print(f"Importing {len(all_files)} files")
+    for f in all_files:
+        print(f + "\n")
+    ds=xr.open_mfdataset(all_files, engine="netcdf4", chunks={"valid_time":1e5} )
     
     # calculate the windsped
     ds["wspd"] = mf.calc_ws(ds)
@@ -48,10 +53,11 @@ if __name__ == "__main__":
 
     # Call the main function with the provided path
     mean_data = main(args.year, client)
+    print(mean_data)
 
     # make a figure
     print("Making the figures")
-    for month in range(1,13):
+    for month in range(1, 13):
         make_figure(mean_data, month, args.year)
 
     end = time.time()

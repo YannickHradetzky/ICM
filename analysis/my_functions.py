@@ -18,7 +18,7 @@ def calc_pv_pot(ds):
 
     perf = 1 + beta*(T_cell-25)
 
-    pv_pot = perf * ds.ssrd/3600 * 1/100
+    pv_pot = perf * ds.ssrd/3600 * 1/1000
     return pv_pot
 
 
