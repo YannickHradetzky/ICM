@@ -3,6 +3,7 @@ import geopandas as gpd
 from pathlib import Path
 import warnings
 import numpy as np
+
 def clip_to_europe(ds: xr.Dataset, 
                   shapefile_path: str = None) -> xr.Dataset:
     """

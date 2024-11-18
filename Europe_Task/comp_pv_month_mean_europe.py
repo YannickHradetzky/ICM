@@ -7,20 +7,21 @@ from dask.distributed import Client
 import time
 
 def main(year, client):
-    path="/home/yannickh00/LEHRE/msc-intro-comp-met-ex-w2024/data/era5/"
-    wdir = "/home/yannickh00/ICM/Europe_Task"
+    path="/Users/yhra/Documents/Master/Semester_3/ICM/offline_data/"
+    wdir = "/Users/yhra/Documents/Master/Semester_3/ICM/Europe_Task"
     all_files = glob.glob(path+"*")
     all_files = [f for f in all_files if f"{year}" in f]
     print(f"Importing {len(all_files)} files")
     for f in all_files:
         print(f + "\n")
     ds=xr.open_mfdataset(all_files, engine="netcdf4", chunks={"valid_time":1e5} )
-    ds["wspd"] = c.calc_ws(ds)
+    ds = c.clip_to_europe(ds, shapefile_path=wdir+"/europe_10km.shx")
+    ds["wspd"] = c.calc_windspeed(ds)
     pvpot = c.calc_pv_pot(ds).groupby(ds.valid_time.dt.month).mean("valid_time").compute()
     
     if not os.path.exists(wdir+"/Results"): # check if the directory exists
         os.makedirs(wdir+"/Results") 
-    pvpot.to_netcdf(wdir+"/Results/pvpot_{year}.nc") # save as .nc file
+    pvpot.to_netcdf(wdir+f"/Results/pvpot_{year}.nc") # save as .nc file
     client.shutdown()
     return pvpot
 
@@ -31,7 +32,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     # Create a client
-    client = Client(n_workers=20, threads_per_worker=5, local_directory='~/tmp')
+    client = Client(n_workers=5, threads_per_worker=1, local_directory='/tmp')
 
     # Call the main function with the provided path
     mean_data = main(args.year, client)
