@@ -1,3 +1,8 @@
 .ipynb_checkpoints/
 */.ipynb_checkpoints
 analysis/~/
+*.pyc
+
+.DS_Store
+offline_data
+
