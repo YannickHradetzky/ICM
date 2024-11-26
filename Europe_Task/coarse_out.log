@@ -4,10 +4,9 @@ Processing year: 1952
 Processing year: 1953
 Processing year: 1954
 Processing year: 1955
-51
-Importing 12 files
-Calculating pv mean
-Program took 163.1067 seconds
+Processing year: 1956
+Processing year: 1957
+ogram took 163.1067 seconds
 Processing year: 1952
 Importing 12 files
 Calculating pv mean
@@ -51,5 +50,13 @@ Importing 12 files
 Calculating pv mean
 Program took 161.4146 seconds
 Processing year: 1955
+Importing 12 files
+Calculating pv mean
+Program took 160.6809 seconds
+Processing year: 1956
+Importing 12 files
+Calculating pv mean
+Program took 171.8715 seconds
+Processing year: 1957
 Importing 12 files
 Calculating pv mean
