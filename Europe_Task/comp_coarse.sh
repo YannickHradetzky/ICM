@@ -9,15 +9,23 @@ echo "Starting coarse data computation..." > $LOG_FILE
 # Loop through years from 1950 to 2010
 for year in $(seq 1950 2010)
 do
+    # Define the output file path
+    OUTPUT_FILE="Results/coarse/pvpot_${year}.nc"
+    
+    # Check if the file already exists
+    if [ -f "$OUTPUT_FILE" ]; then
+        echo "Skipping year $year, file already exists: $OUTPUT_FILE" | tee -a $LOG_FILE
+        continue  # Skip this iteration and go to the next year
+    fi
+    
     echo "Processing year: $year" | tee -a $LOG_FILE
     
     # Call the Python script and append output to the log
     python3 -u comp_coarse_cutting_pvpot.py $year >> $LOG_FILE 2>&1
     
-    # Add error checking
+    # Add error checking but do not exit on error
     if [ $? -ne 0 ]; then
-        echo "Error processing year $year" | tee -a $LOG_FILE
-        exit 1
+        echo "Error processing year $year. Continuing to next year..." | tee -a $LOG_FILE
     fi
 done
 

@@ -1,16 +1,499 @@
-Starting coarse data cProcessing year: 1950
-Processing year: 1951
-Processing year: 1952
-Processing year: 1953
-Processing year: 1954
-Processing year: 1955
-Processing year: 1956
-Processing year: 1957
-ogram took 163.1067 seconds
-Processing year: 1952
+Starting coarse data cSkipping year 1950, file already exists: Results/coarse/pvpot_1950.nc
+Skipping year 1951, file already exists: Results/coarse/pvpot_1951.nc
+Skipping year 1952, file already exists: Results/coarse/pvpot_1952.nc
+Skipping year 1953, file already exists: Results/coarse/pvpot_1953.nc
+Skipping year 1954, file already exists: Results/coarse/pvpot_1954.nc
+Skipping year 1955, file already exists: Results/coarse/pvpot_1955.nc
+Skipping year 1956, file already exists: Results/coarse/pvpot_1956.nc
+Skipping year 1957, file already exists: Results/coarse/pvpot_1957.nc
+Skipping year 1958, file already exists: Results/coarse/pvpot_1958.nc
+Skipping year 1959, file already exists: Results/coarse/pvpot_1959.nc
+Skipping year 1960, file already exists: Results/coarse/pvpot_1960.nc
+Processing year: 1961
+Error processing year 1961. Continuing to next year...
+Processing year: 1962
+Error processing year 1962. Continuing to next year...
+Processing year: 1963
+Error processing year 1963. Continuing to next year...
+Processing year: 1964
+Error processing year 1964. Continuing to next year...
+Processing year: 1965
+Error processing year 1965. Continuing to next year...
+Processing year: 1966
+Error processing year 1966. Continuing to next year...
+Processing year: 1967
+Error processing year 1967. Continuing to next year...
+Processing year: 1968
+Error processing year 1968. Continuing to next year...
+Processing year: 1969
+Error processing year 1969. Continuing to next year...
+Processing year: 1970
+Error processing year 1970. Continuing to next year...
+Processing year: 1971
+Error processing year 1971. Continuing to next year...
+Processing year: 1972
+Error processing year 1972. Continuing to next year...
+Processing year: 1973
+Error processing year 1973. Continuing to next year...
+Processing year: 1974
+Error processing year 1974. Continuing to next year...
+Processing year: 1975
+Error processing year 1975. Continuing to next year...
+Processing year: 1976
+Error processing year 1976. Continuing to next year...
+Processing year: 1977
+Error processing year 1977. Continuing to next year...
+Processing year: 1978
+Error processing year 1978. Continuing to next year...
+Skipping year 1979, file already exists: Results/coarse/pvpot_1979.nc
+Processing year: 1980
+Error processing year 1980. Continuing to next year...
+Processing year: 1981
+Error processing year 1981. Continuing to next year...
+Processing year: 1982
+Error processing year 1982. Continuing to next year...
+Processing year: 1983
+Error processing year 1983. Continuing to next year...
+Processing year: 1984
+Error processing year 1984. Continuing to next year...
+Processing year: 1985
+Error processing year 1985. Continuing to next year...
+Processing year: 1986
+Error processing year 1986. Continuing to next year...
+Processing year: 1987
+Error processing year 1987. Continuing to next year...
+Processing year: 1988
+Error processing year 1988. Continuing to next year...
+Processing year: 1989
+Error processing year 1989. Continuing to next year...
+Processing year: 1990
+Error processing year 1990. Continuing to next year...
+Processing year: 1991
+Error processing year 1991. Continuing to next year...
+Processing year: 1992
+Error processing year 1992. Continuing to next year...
+Processing year: 1993
+Error processing year 1993. Continuing to next year...
+Processing year: 1994
+Error processing year 1994. Continuing to next year...
+Processing year: 1995
+Error processing year 1995. Continuing to next year...
+Processing year: 1996
+Error processing year 1996. Continuing to next year...
+Processing year: 1997
+Error processing year 1997. Continuing to next year...
+Processing year: 1998
+Error processing year 1998. Continuing to next year...
+Processing year: 1999
+Error processing year 1999. Continuing to next year...
+Skipping year 2000, file already exists: Results/coarse/pvpot_2000.nc
+Processing year: 2001
+Processing year: 2002
+Processing year: 2003
+Processing year: 2004
+Processing year: 2005
+Processing year: 2006
+Processing year: 2007
+Processing year: 2008
+Processing year: 2009
+Processing year: 2010
+Coarse data computation completed for all years
+(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1966. Continuing to next year...
+Processing year: 1967
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1967. Continuing to next year...
+Processing year: 1968
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1968. Continuing to next year...
+Processing year: 1969
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1969. Continuing to next year...
+Processing year: 1970
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1970. Continuing to next year...
+Processing year: 1971
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1971. Continuing to next year...
+Processing year: 1972
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1972. Continuing to next year...
+Processing year: 1973
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1973. Continuing to next year...
+Processing year: 1974
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1974. Continuing to next year...
+Processing year: 1975
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1975. Continuing to next year...
+Processing year: 1976
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1976. Continuing to next year...
+Processing year: 1977
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1977. Continuing to next year...
+Processing year: 1978
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1978. Continuing to next year...
+Skipping year 1979, file already exists: Results/coarse/pvpot_1979.nc
+Processing year: 1980
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1980. Continuing to next year...
+Processing year: 1981
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1981. Continuing to next year...
+Processing year: 1982
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1982. Continuing to next year...
+Processing year: 1983
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1983. Continuing to next year...
+Processing year: 1984
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1984. Continuing to next year...
+Processing year: 1985
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1985. Continuing to next year...
+Processing year: 1986
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1986. Continuing to next year...
+Processing year: 1987
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1987. Continuing to next year...
+Processing year: 1988
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1988. Continuing to next year...
+Processing year: 1989
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1989. Continuing to next year...
+Processing year: 1990
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1990. Continuing to next year...
+Processing year: 1991
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1991. Continuing to next year...
+Processing year: 1992
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1992. Continuing to next year...
+Processing year: 1993
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1993. Continuing to next year...
+Processing year: 1994
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1994. Continuing to next year...
+Processing year: 1995
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1995. Continuing to next year...
+Processing year: 1996
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1996. Continuing to next year...
+Processing year: 1997
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1997. Continuing to next year...
+Processing year: 1998
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1998. Continuing to next year...
+Processing year: 1999
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_coarse_cutting_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1999. Continuing to next year...
+Skipping year 2000, file already exists: Results/coarse/pvpot_2000.nc
+Processing year: 2001
 Importing 12 files
 Calculating pv mean
-2024-11-26 10:46:19,567 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+2024-11-26 12:23:03,550 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
 Traceback (most recent call last):
   File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 225, in read
     frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
@@ -39,24 +522,42 @@ Traceback (most recent call last):
     convert_stream_closed_error(self, e)
   File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
     raise CommClosedError(f"in {obj}: {exc}") from exc
-distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:59022 remote=tcp://127.0.0.1:39501>: Stream is closed
-Program took 159.0018 seconds
-Processing year: 1953
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:39122 remote=tcp://127.0.0.1:34049>: Stream is closed
+Program took 137.8075 seconds
+Processing year: 2002
 Importing 12 files
 Calculating pv mean
-Program took 175.2957 seconds
-Processing year: 1954
+Program took 143.7072 seconds
+Processing year: 2003
 Importing 12 files
 Calculating pv mean
-Program took 161.4146 seconds
-Processing year: 1955
+Program took 154.6744 seconds
+Processing year: 2004
 Importing 12 files
 Calculating pv mean
-Program took 160.6809 seconds
-Processing year: 1956
+Program took 143.4635 seconds
+Processing year: 2005
 Importing 12 files
 Calculating pv mean
-Program took 171.8715 seconds
-Processing year: 1957
+Program took 150.2632 seconds
+Processing year: 2006
 Importing 12 files
 Calculating pv mean
+Program took 147.3349 seconds
+Processing year: 2007
+Importing 12 files
+Calculating pv mean
+Program took 150.1820 seconds
+Processing year: 2008
+Importing 12 files
+Calculating pv mean
+Program took 168.2231 seconds
+Processing year: 2009
+Importing 12 files
+Calculating pv mean
+Program took 148.1402 seconds
+Processing year: 2010
+Importing 12 files
+Calculating pv mean
+Program took 146.2652 seconds
+Coarse data computation completed for all years
