@@ -1,6 +1,6 @@
 import xarray as xr
 import glob
-import core as c
+import core1 as c
 import os
 import argparse
 from dask.distributed import Client
