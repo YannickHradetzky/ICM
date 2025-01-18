@@ -79,3 +79,25 @@ def apply_polygon_mask(dataset, coordinates, longitude_dim='longitude', latitude
     
     # Apply mask to the dataset
     return dataset.where(mask)
+
+
+def adjust_longitudes(ds):
+    """ Adjust longitudes from 0-360 to -180 to 180 if needed """
+    if (ds.longitude > 180).any():
+        ds['longitude'] = ((ds.longitude + 180) % 360) - 180
+    ds = ds.sortby(ds.longitude)
+    return ds
+
+def extract_europe(ds):
+    # Adjust longitudes first
+    ds = adjust_longitudes(ds)
+
+    # Define latitude and longitude bounds for Europe
+    lat_bounds = (35, 71)  # Bounds for Europe
+    # Europe spans the prime meridian, so adjust longitude bounds for -180 to 180 system
+    lon_bounds = (-25, 40)
+
+    # Handling longitude slices directly within the bounds for -180 to 180 system
+    european_subset = ds.sel(latitude=slice(71, 35), longitude=slice(lon_bounds[0], lon_bounds[1]))
+
+    return european_subset

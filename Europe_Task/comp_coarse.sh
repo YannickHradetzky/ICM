@@ -13,10 +13,10 @@ do
     OUTPUT_FILE="Results/coarse/pvpot_${year}.nc"
     
     # Check if the file already exists
-    if [ -f "$OUTPUT_FILE" ]; then
-        echo "Skipping year $year, file already exists: $OUTPUT_FILE" | tee -a $LOG_FILE
-        continue  # Skip this iteration and go to the next year
-    fi
+    # if [ -f "$OUTPUT_FILE" ]; then
+        # echo "Skipping year $year, file already exists: $OUTPUT_FILE" | tee -a $LOG_FILE
+        # continue  # Skip this iteration and go to the next year
+    # fi
     
     echo "Processing year: $year" | tee -a $LOG_FILE
     

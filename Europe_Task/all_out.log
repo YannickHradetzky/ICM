@@ -1,12 +1,673 @@
 Starting coarse data cProcessing year: 1950
 Processing year: 1951
 Processing year: 1952
-culating pv mean
-Program took 191.5773 seconds
-Processing year: 1951
+Processing year: 1953
+Processing year: 1954
+Processing year: 1955
+Processing year: 1956
+Processing year: 1957
+Processing year: 1958
+Processing year: 1959
+Processing year: 1960
+Processing year: 1961
+Error processing year 1961. Continuing to next year...
+Processing year: 1962
+Error processing year 1962. Continuing to next year...
+Processing year: 1963
+Error processing year 1963. Continuing to next year...
+Processing year: 1964
+Error processing year 1964. Continuing to next year...
+Processing year: 1965
+Error processing year 1965. Continuing to next year...
+Processing year: 1966
+Error processing year 1966. Continuing to next year...
+Processing year: 1967
+Error processing year 1967. Continuing to next year...
+Processing year: 1968
+Error processing year 1968. Continuing to next year...
+Processing year: 1969
+Error processing year 1969. Continuing to next year...
+Processing year: 1970
+Error processing year 1970. Continuing to next year...
+Processing year: 1971
+Error processing year 1971. Continuing to next year...
+Processing year: 1972
+Error processing year 1972. Continuing to next year...
+Processing year: 1973
+Error processing year 1973. Continuing to next year...
+Processing year: 1974
+Error processing year 1974. Continuing to next year...
+Processing year: 1975
+Error processing year 1975. Continuing to next year...
+Processing year: 1976
+Error processing year 1976. Continuing to next year...
+Processing year: 1977
+Error processing year 1977. Continuing to next year...
+Processing year: 1978
+Error processing year 1978. Continuing to next year...
+Processing year: 1979
+Processing year: 1980
+Error processing year 1980. Continuing to next year...
+Processing year: 1981
+Error processing year 1981. Continuing to next year...
+Processing year: 1982
+Error processing year 1982. Continuing to next year...
+Processing year: 1983
+Error processing year 1983. Continuing to next year...
+Processing year: 1984
+Error processing year 1984. Continuing to next year...
+Processing year: 1985
+Error processing year 1985. Continuing to next year...
+Processing year: 1986
+Error processing year 1986. Continuing to next year...
+Processing year: 1987
+Error processing year 1987. Continuing to next year...
+Processing year: 1988
+Error processing year 1988. Continuing to next year...
+Processing year: 1989
+Error processing year 1989. Continuing to next year...
+Processing year: 1990
+Error processing year 1990. Continuing to next year...
+Processing year: 1991
+Error processing year 1991. Continuing to next year...
+Processing year: 1992
+Error processing year 1992. Continuing to next year...
+Processing year: 1993
+Error processing year 1993. Continuing to next year...
+Processing year: 1994
+Error processing year 1994. Continuing to next year...
+Processing year: 1995
+Error processing year 1995. Continuing to next year...
+Processing year: 1996
+Error processing year 1996. Continuing to next year...
+Processing year: 1997
+Error processing year 1997. Continuing to next year...
+Processing year: 1998
+Error processing year 1998. Continuing to next year...
+Processing year: 1999
+Error processing year 1999. Continuing to next year...
+Processing year: 2000
+Processing year: 2001
+Processing year: 2002
+Processing year: 2003
+Processing year: 2004
+Processing year: 2005
+Processing year: 2006
+Processing year: 2007
+Processing year: 2008
+Processing year: 2009
+Processing year: 2010
+Coarse data computation completed for all years
+nt)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1965. Continuing to next year...
+Processing year: 1966
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1966. Continuing to next year...
+Processing year: 1967
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1967. Continuing to next year...
+Processing year: 1968
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1968. Continuing to next year...
+Processing year: 1969
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1969. Continuing to next year...
+Processing year: 1970
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1970. Continuing to next year...
+Processing year: 1971
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1971. Continuing to next year...
+Processing year: 1972
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1972. Continuing to next year...
+Processing year: 1973
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1973. Continuing to next year...
+Processing year: 1974
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1974. Continuing to next year...
+Processing year: 1975
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1975. Continuing to next year...
+Processing year: 1976
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1976. Continuing to next year...
+Processing year: 1977
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1977. Continuing to next year...
+Processing year: 1978
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1978. Continuing to next year...
+Processing year: 1979
+Importing 2 files
+Calculating pv mean
+Program took 34.5999 seconds
+Processing year: 1980
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1980. Continuing to next year...
+Processing year: 1981
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1981. Continuing to next year...
+Processing year: 1982
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1982. Continuing to next year...
+Processing year: 1983
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1983. Continuing to next year...
+Processing year: 1984
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1984. Continuing to next year...
+Processing year: 1985
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1985. Continuing to next year...
+Processing year: 1986
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1986. Continuing to next year...
+Processing year: 1987
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1987. Continuing to next year...
+Processing year: 1988
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1988. Continuing to next year...
+Processing year: 1989
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1989. Continuing to next year...
+Processing year: 1990
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1990. Continuing to next year...
+Processing year: 1991
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1991. Continuing to next year...
+Processing year: 1992
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1992. Continuing to next year...
+Processing year: 1993
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1993. Continuing to next year...
+Processing year: 1994
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1994. Continuing to next year...
+Processing year: 1995
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1995. Continuing to next year...
+Processing year: 1996
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1996. Continuing to next year...
+Processing year: 1997
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1997. Continuing to next year...
+Processing year: 1998
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1998. Continuing to next year...
+Processing year: 1999
+Importing 0 files
+Traceback (most recent call last):
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 49, in <module>
+    main(args.year, client)
+  File "/home/yannickh00/ICM/Europe_Task/comp_all_pvpot.py", line 26, in main
+    ds=xr.open_mfdataset(all_files,
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/xarray/backends/api.py", line 1543, in open_mfdataset
+    raise OSError("no files to open")
+OSError: no files to open
+Error processing year 1999. Continuing to next year...
+Processing year: 2000
 Importing 12 files
 Calculating pv mean
-Program took 190.5709 seconds
-Processing year: 1952
+Program took 187.4036 seconds
+Processing year: 2001
 Importing 12 files
 Calculating pv mean
+Program took 186.5499 seconds
+Processing year: 2002
+Importing 12 files
+Calculating pv mean
+2024-11-26 13:39:39,265 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/worker.py", line 1250, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 461, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 440, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1256, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1015, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 236, in read
+    convert_stream_closed_error(self, e)
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:44872 remote=tcp://127.0.0.1:43361>: Stream is closed
+2024-11-26 13:39:39,265 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/worker.py", line 1250, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 461, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 440, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1256, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1015, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 236, in read
+    convert_stream_closed_error(self, e)
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:44856 remote=tcp://127.0.0.1:43361>: Stream is closed
+2024-11-26 13:39:39,269 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/worker.py", line 1250, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 461, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 440, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1256, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1015, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 236, in read
+    convert_stream_closed_error(self, e)
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:44888 remote=tcp://127.0.0.1:43361>: Stream is closed
+Program took 186.7317 seconds
+Processing year: 2003
+Importing 12 files
+Calculating pv mean
+Program took 186.3655 seconds
+Processing year: 2004
+Importing 12 files
+Calculating pv mean
+Program took 186.4091 seconds
+Processing year: 2005
+Importing 12 files
+Calculating pv mean
+Program took 185.0320 seconds
+Processing year: 2006
+Importing 12 files
+Calculating pv mean
+Program took 185.2954 seconds
+Processing year: 2007
+Importing 12 files
+Calculating pv mean
+2024-11-26 13:55:08,905 - distributed.worker - ERROR - Failed to communicate with scheduler during heartbeat.
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 225, in read
+    frames_nosplit_nbytes_bin = await stream.read_bytes(fmt_size)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tornado.iostream.StreamClosedError: Stream is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/worker.py", line 1250, in heartbeat
+    response = await retry_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 461, in retry_operation
+    return await retry(
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/utils_comm.py", line 440, in retry
+    return await coro()
+           ^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1256, in send_recv_from_rpc
+    return await send_recv(comm=comm, op=key, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/core.py", line 1015, in send_recv
+    response = await comm.read(deserializers=deserializers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 236, in read
+    convert_stream_closed_error(self, e)
+  File "/home/yannickh00/.local/lib/python3.11/site-packages/distributed/comm/tcp.py", line 142, in convert_stream_closed_error
+    raise CommClosedError(f"in {obj}: {exc}") from exc
+distributed.comm.core.CommClosedError: in <TCP (closed) ConnectionPool.heartbeat_worker local=tcp://127.0.0.1:53222 remote=tcp://127.0.0.1:33505>: Stream is closed
+Program took 180.7458 seconds
+Processing year: 2008
+Importing 12 files
+Calculating pv mean
+Program took 183.5914 seconds
+Processing year: 2009
+Importing 12 files
+Calculating pv mean
+Program took 184.0533 seconds
+Processing year: 2010
+Importing 12 files
+Calculating pv mean
+Program took 184.7332 seconds
+Coarse data computation completed for all years
