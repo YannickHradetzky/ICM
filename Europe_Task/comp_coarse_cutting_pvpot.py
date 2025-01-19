@@ -34,6 +34,7 @@ def main(year, client):
     print("Calculating pv mean")
     pvpot = c.calc_pv_pot(ds).groupby(ds.valid_time.dt.month).mean("valid_time").compute()
     client.shutdown()
+    print(ds)
     # save the results
     pvpot.to_netcdf(wdir + f"Results/coarse/pvpot_{year}.nc")
     return pvpot
